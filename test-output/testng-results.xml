@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="11" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="239216" started-at="2021-10-04T19:23:48 IST" finished-at="2021-10-04T19:27:47 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="239216" started-at="2021-10-04T19:23:48 IST" finished-at="2021-10-04T19:27:47 IST">
+      <class name="PG.Runner">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:PG.Runner@25af5db5]" name="beforeTest" is-config="true" duration-ms="8841" started-at="2021-10-04T19:23:48 IST" finished-at="2021-10-04T19:23:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="TC_04_reset_password()[pri:0, instance:PG.Runner@25af5db5]" name="TC_04_reset_password" duration-ms="80197" started-at="2021-10-04T19:23:57 IST" description="reset password with invalid email" finished-at="2021-10-04T19:25:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_04_reset_password -->
+        <test-method status="PASS" signature="TC_05_reset_password_invalid_email()[pri:0, instance:PG.Runner@25af5db5]" name="TC_05_reset_password_invalid_email" duration-ms="31520" started-at="2021-10-04T19:25:17 IST" description="For checking if user is able to reset password" finished-at="2021-10-04T19:25:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_05_reset_password_invalid_email -->
+        <test-method status="PASS" signature="TC_06_reset_password_invalid_OTP()[pri:0, instance:PG.Runner@25af5db5]" name="TC_06_reset_password_invalid_OTP" duration-ms="18210" started-at="2021-10-04T19:25:48 IST" description="Reseting password with invalid OTP" finished-at="2021-10-04T19:26:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_06_reset_password_invalid_OTP -->
+        <test-method status="PASS" signature="TC_07_empty_email()[pri:0, instance:PG.Runner@25af5db5]" name="TC_07_empty_email" duration-ms="7195" started-at="2021-10-04T19:26:07 IST" description="Checking with empty email" finished-at="2021-10-04T19:26:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_07_empty_email -->
+        <test-method status="PASS" signature="TC_08_signUP()[pri:0, instance:PG.Runner@25af5db5]" name="TC_08_signUP" duration-ms="43515" started-at="2021-10-04T19:26:14 IST" description="Signup functionality" finished-at="2021-10-04T19:26:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_08_signUP -->
+        <test-method status="PASS" signature="TC_09_invalid_email()[pri:0, instance:PG.Runner@25af5db5]" name="TC_09_invalid_email" duration-ms="7035" started-at="2021-10-04T19:26:57 IST" description="sign up with invalid OTP" finished-at="2021-10-04T19:27:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_09_invalid_email -->
+        <test-method status="PASS" signature="TC_10_wrongOTP()[pri:0, instance:PG.Runner@25af5db5]" name="TC_10_wrongOTP" duration-ms="26642" started-at="2021-10-04T19:27:04 IST" description="Sign up with invalid OTP" finished-at="2021-10-04T19:27:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_10_wrongOTP -->
+        <test-method status="PASS" signature="TC_11_withoutOTP()[pri:0, instance:PG.Runner@25af5db5]" name="TC_11_withoutOTP" duration-ms="9651" started-at="2021-10-04T19:27:31 IST" description="Sign up with without OTP" finished-at="2021-10-04T19:27:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_11_withoutOTP -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:PG.Runner@25af5db5]" name="afterTest" is-config="true" duration-ms="6217" started-at="2021-10-04T19:27:41 IST" finished-at="2021-10-04T19:27:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- PG.Runner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
